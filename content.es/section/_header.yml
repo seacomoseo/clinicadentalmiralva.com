@@ -1,17 +1,16 @@
 name: Cabecera
-hanchor: SanSoul Hugo Theme
-color: main-dark
-bg: fondo.jpg
+hanchor: Clínica Dental Miralva
+# color: white
+# bg: fondo.jpg
 full: true
 boxes:
-- image: base/logo.svg
-  span: .125
-  span_min: .5
-- title: SanSoul Hugo Theme
-  hn: p
-  hs: 0
-  subtitle: SanSoul es un tema de Hugo con alma para webs de servicios por lorensansol
+- image: base/logo-tr.svg
+  span: .5
+  # span_min: .5
+- # title: Clínica Dental Miralva
+  # hn: p
+  # hs: 0
+  # subtitle: SanSoul es un tema de Hugo con alma para webs de servicios por lorensansol
+    # Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   content: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
     [btn icon:plus Más](#nosotros)

@@ -8,28 +8,11 @@
 
 ### Local
 
-- If new project (not fork):
-  - Copy [clinicadentalmiralva.com project files](https://github.com/clinicadentalmiralva/clinicadentalmiralva.com)
-  - `git submodule add https://github.com/seacomoseo/sansoul.git themes/sansoul`
-- Else if fork:
-  - Download submódule theme files: `git submodule update --init --recursive`
-- If you want use svg emojies:
-  - `git submodule add https://github.com/seacomoseo/sansoul-emojies.git layouts/partials/svg/emojis`
-- Now you can see the run project in the browser with the `do server` comand
-- `README.md` ⏩ edit baseURL ("clinicadentalmiralva.com") + delete steps bit by bit
 - Design
   - You can edit any file with the same structure of theme sansoul
   - GENERAL
     - `config.yml`
     - `data/*.{yml,md}`
-  - IMG + LOGO + FAVICON
-    - `assets/media/` folder ⏩ [Compress image tool](https://compressor.io/)
-      - `fondo.jpg`
-      - `logo.svg`
-      - `logo.png`
-      - `icon.png`
-      - `favicon.ico` ⏩ [Favicon converter tool](https://favicon.io/favicon-converter/)
-    - Gitlab, Github, Netlify and Cloudflare Pages update icon (project and account)
   - FONTS
     - Fonts that not be in Google Fonts:
       - .otf/.ttf files in `assets/fonts` + rename

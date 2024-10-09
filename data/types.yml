@@ -1,6 +1,7 @@
 single:
   template:
     menu:
+      hide: true
       logo: false
       sticky: auto
       size: ''
@@ -13,10 +14,11 @@ single:
       uppercase: true
       alpha: .7
       parallax: fix
+      color: white
       divider: curve-side
       flip_x: false
       flip_y: false
-    - color: white
+    - color: light
       flip_x: true
       flip_y: true
 

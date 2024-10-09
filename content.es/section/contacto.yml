@@ -9,11 +9,6 @@ boxes:
 - social:
   - link: https://www.facebook.com/QuantumFracture
   - link: https://www.instagram.com/quantumfracture/
-  - link: https://www.youtube.com/channel/UCbdSYaPD-lr1kW27UJuk8Pw
-  - link: https://twitter.com/QuantumFracture
-  - link: https://www.linkedin.com/company/quantum-fracture
-  - link: https://github.com/lorensansol
-  - link: https://mastersoflol.com/collections/quantumfracture?YTC
   contact:
   - type: schedule
     days: Lunes a Viernes
@@ -42,9 +37,9 @@ boxes:
   - type: textarea
     name: Mensaje
     required: true
-- view: map
-  bg: mapa.png
-  link: '{{% map-url "Sea Como SEO, Ronda de Levante, 1, 30008 Murcia" %}}'
-  ofuscate: true
-  rate: 1x1
-  button: hide
+# - view: map
+#   bg: mapa.png
+#   link: '{{% map-url "Sea Como SEO, Ronda de Levante, 1, 30008 Murcia" %}}'
+#   ofuscate: true
+#   rate: 1x1
+#   button: hide

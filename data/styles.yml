@@ -1,18 +1,18 @@
 icons:
-  type: solid
+  type: regular
   sharp: true
   emojis: ''
   emojis_default: false
 fonts:
   google: true
   base:
-    family: Montserrat
+    family: JosefinSans
     weight: 400
     bold: 0
     italic: false
     line_height: 1.25
   cursive:
-    family: Dancing Script
+    family: Laila
     weight: 400
     bold: 0
     italic: false
@@ -20,17 +20,17 @@ fonts:
     size: 1
     top: 0
   title:
-    family: Montserrat
-    weight: 800
+    family: JosefinSans
+    weight: 600
     bold: 0
     italic: false
     line_height: 1.25
     size: 1
-    top: 0
+    top: 0.0625
   blockquote_cursive: true
 colors:
   main:
-    color: '#bdd5ea'
+    color: '#2ad3db'
     light: ''
     dark: ''
     contrast: text
@@ -40,7 +40,7 @@ colors:
     dark: ''
     contrast: all
   link:
-    color: '#fe5f55'
+    color: ''
     light: ''
     dark: ''
     contrast: text
@@ -48,15 +48,15 @@ colors:
     white: '#fff'
     light: '#eee'
     grey: '#767676'
-    dark: '#282525'
+    dark: '#231f20' #282525
     black: '#000'
 rounded:
-  radius: 0.33
-  chamfer: true
+  radius: 1.33
+  chamfer: false
 buttons:
   sides_round: false
   icon_circle: false
-  deep: true
+  deep: false
   outline: false
   font_main:
     type: title

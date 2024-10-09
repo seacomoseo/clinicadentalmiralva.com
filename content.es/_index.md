@@ -4,19 +4,19 @@ title: Inicio
 image: fondo.jpg
 translationKey: home
 
-seo: ''
+seo: Clínica Dental Miralva - Murcia y Santomera
 description: llll➤ SanSoul es un tema de Hugo con alma para webs de servicios ✅ por lorensansol ☎️ 123 456 789.
 
 sections:
 - file: _header
-- file: nosotros
-- file: servicios
-  modals:
-  - file: ejemplo
-- file: proceso
-- file: fotos
-- file: noticias
-- file: faq
+# - file: nosotros
+# - file: servicios
+#   modals:
+#   - file: ejemplo
+# - file: proceso
+# - file: fotos
+# - file: noticias
+# - file: faq
 - file: resenas
 - file: contacto
 - file: mapa
