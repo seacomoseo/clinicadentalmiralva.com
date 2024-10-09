@@ -1,10 +1,10 @@
-baseURL: https://sansoul.netlify.app
+baseURL: https://clinicadentalmiralva.com
 buildFuture: true
 theme: [sansoul]
 params:
-  git_url: ''
-  netlify_name: ''
-  netlify_id: ''
-  hook: NjMwMmJjOWExZjZiNGI2Zjk2YmJjMDVh
-  drive_link: ''
-  drive_mails: ''
+  git_url: https://github.com/seacomoseo/clinicadentalmiralva.com
+  netlify_name: clinicadentalmiralva
+  netlify_id: ae120ec9-e208-4d84-b9ab-99aa5856bc0a
+  hook: NjcwNjgxZjkyOGYwMDU0Zjc0NzViOWIwCg==
+  drive_link: https://drive.google.com/file/d/1Vpi8CU1XcjjC60j3qCQcxTwv4z97OO5l
+  drive_mails: clinicamiralva@gmail.com
