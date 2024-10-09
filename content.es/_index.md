@@ -1,7 +1,7 @@
 ---
 slug: inicio
 title: Inicio
-image: fondo.jpg
+image: base/logo.png
 translationKey: home
 
 seo: Clínica Dental Miralva - Murcia y Santomera
