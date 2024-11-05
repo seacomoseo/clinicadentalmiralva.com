@@ -1,34 +1,28 @@
 name: Nosotros
 title: Nosotros
-subtitle: Lorem ipsum dolor sit amet
-icon: circle-info
+subtitle: Salud y estética
+# icon: circle-info
+size: md
 box:
-  columns: 2
+  columns: 0
+  gap: 5
+  align_y: center
 boxes:
 - order: 2
-  bg: fondo.jpg
+  # span: .5
+  image: equipo.jpg
+  # ratio: 1x1
   parallax: box
 - order: 1
   align: left
   align_max: right
-  align_y: center
   content: |
-    Lorem ipsum dolor sit amet.
-    Consectetur adipiscing elit.
-    Sed do eiusmod tempor incididunt.
-    Ut labore et dolore magna aliqua.
+    En Clínica Dental Miralva, nos dedicamos a cuidar de tu sonrisa con un enfoque humano y especializado.
 
-    Lorem ipsum dolor sit amet.
-    Consectetur adipiscing elit.
-    Sed do eiusmod tempor incididunt.
-    Ut labore et dolore magna aliqua.
+    Nos esforzamos por escuchar tus necesidades y preocupaciones para ofrecerte el tratamiento más adecuado, combinando nuestra experiencia con técnicas avanzadas y conocimientos actualizados.
 
-    Lorem ipsum dolor sit amet.
-    Consectetur adipiscing elit.
-    Sed do eiusmod tempor incididunt.
-    Ut labore et dolore magna aliqua.
+    Creemos en una atención personalizada, donde cada paciente se sienta acompañado y comprendido.
 
-    Lorem ipsum dolor sit amet.
-    Consectetur adipiscing elit.
-    Sed do eiusmod tempor incididunt.
-    Ut labore et dolore magna aliqua.
+    Nuestro equipo se mantiene a la vanguardia de la odontología, brindando una atención moderna y de calidad en un entorno cálido y profesional, diseñado para tu tranquilidad y confianza.
+
+    [btn Equipo](#equipo)

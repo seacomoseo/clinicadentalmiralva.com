@@ -1,18 +1,18 @@
 icons:
   type: regular
-  sharp: true
+  sharp: false
   emojis: ''
   emojis_default: false
 fonts:
-  google: true
+  google: false
   base:
-    family: JosefinSans
+    family: Nunito
     weight: 400
     bold: 0
     italic: false
     line_height: 1.25
   cursive:
-    family: Laila
+    family: Nunito
     weight: 400
     bold: 0
     italic: false
@@ -20,17 +20,17 @@ fonts:
     size: 1
     top: 0
   title:
-    family: JosefinSans
+    family: Josefin Sans
     weight: 600
     bold: 0
     italic: false
     line_height: 1.25
     size: 1
-    top: 0.0625
+    top: 0.125
   blockquote_cursive: true
 colors:
   main:
-    color: '#2ad3db'
+    color: '#9bd5d4'
     light: ''
     dark: ''
     contrast: text
@@ -46,9 +46,9 @@ colors:
     contrast: text
   base:
     white: '#fff'
-    light: '#eee'
-    grey: '#767676'
-    dark: '#231f20' #282525
+    light: '#f2f2f2'
+    grey: '#bfd9d6'
+    dark: '#375359' #231f20
     black: '#000'
 rounded:
   radius: 1.33
@@ -71,7 +71,7 @@ inputs:
 shadow:
   left: 0.15
   top: 0.15
-  blur: 0
+  blur: 0.15
   color: black
   alpha: 0.85
 performance:

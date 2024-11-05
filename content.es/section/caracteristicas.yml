@@ -1,0 +1,21 @@
+name: Características
+title: Características
+subtitle: ¿En qué destacamos?
+# icon: star
+box:
+  columns: 3
+  gap: 2
+  uppercase: false
+boxes:
+- icon: heart
+  title: Atención <br> Humana
+  content: |
+    En Miralva, escuchamos y comprendemos tus necesidades, cuidando cada detalle de tu experiencia para que te sientas cómodo y atendido.
+- icon: tooth
+  title: Experiencia <br> Demostrada
+  content: |
+    Contamos con un equipo profesional y experimentado que ha realizado cientos de tratamientos exitosos, asegurando siempre los mejores resultados.
+- icon: microscope
+  title: Conocimientos de <br> Vanguardia
+  content: |
+    Nos mantenemos al día en las técnicas y tecnologías más avanzadas de odontología, ofreciéndote tratamientos modernos y efectivos.

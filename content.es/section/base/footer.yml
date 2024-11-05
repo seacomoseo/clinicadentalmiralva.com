@@ -1,9 +1,16 @@
 name: Pie
 divider: curve-side
-content: |
-  - icon:copyright      {{< internal-link index >}}
-  - icon:scale-balanced {{< internal-link legal >}}
-  - icon:shield-keyhole {{< internal-link privacy >}}
-  - icon:cookie-bite    {{< internal-link cookies >}}
-  - icon:seacomoseo     {{< i18n web_design >}} [seacomoseo.com](https://seacomoseo.com/)
-  {.list-inline}
+box:
+  gap: 1
+boxes:
+- social:
+  - link: https://www.instagram.com/clinicadentalmiralva/
+  - link: https://www.facebook.com/profile.php?id=61567998477600
+  - link: mailto:clinicamiralva@gmail.com
+- content: |
+    - icon:copyright      {{< internal-link index >}}
+    - icon:scale-balanced {{< internal-link legal >}}
+    - icon:shield-keyhole {{< internal-link privacy >}}
+    - icon:cookie-bite    {{< internal-link cookies >}}
+    - icon:seacomoseo     {{< i18n web_design >}} [seacomoseo.com](https://seacomoseo.com/)
+    {.list-inline}

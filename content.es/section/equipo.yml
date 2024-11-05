@@ -1,0 +1,57 @@
+name: Equipo
+title: Equipo
+subtitle: Cuidamos de tu sonrisa
+# icon: rocket-launch
+box:
+  columns: 3
+  gap_ny: 5
+  uppercase: false
+  ratio: 3x4
+  contain: true
+boxes:
+
+- image: equipo/inmaculada-funes-gil.png
+  title: Inmaculada <br> Funes Gil
+  subtitle: Graduada en Odontología
+  content: |
+    - icon:location-dot Murcia
+
+- image: equipo/maria-del-mar-capilla-san-martin.png
+  title: María del Mar <br> Capilla San Martín
+  subtitle: Recepción y cita previa
+  content: |
+    - icon:location-dot Murcia
+
+- image: equipo/rosa-nicolas-guzman.png
+  title: Rosa <br> Nicolás Guzmán
+  subtitle: Higienista Dental
+  content: |
+    - icon:location-dot Murcia
+
+- icon: user-doctor-hair-long
+  # image: equipo/ana-fuensanta-miralles-alvarez.png
+  title: Ana Fuensanta <br> Miralles Álvarez
+  subtitle: Graduada en Odontología <br> Especialista en cirugía e implantología
+  content: |
+    - icon:location-dot Murcia y Santomera
+
+- icon: user-doctor-hair
+  # image: equipo/pedro-alvarez-gomez-pena.png
+  title: Pedro Álvarez-<br>Gómez Peña
+  subtitle: Odontólogo
+  content: |
+    - icon:location-dot Murcia
+
+- icon: user-doctor-hair-long
+  # image: equipo/nuria-perez-guzman.png
+  title: Nuria <br> Pérez Guzmán
+  subtitle: Graduada en odontología <br> Master en Odontopediatría
+  content: |
+    - icon:location-dot Murcia
+
+- icon: user-nurse-hair-long
+  # image: equipo/olga-ovsyannikova.png
+  title: Olga <br> Ovsyannikova
+  subtitle: Higienista dental
+  content: |
+    - icon:location-dot Murcia y Santomera

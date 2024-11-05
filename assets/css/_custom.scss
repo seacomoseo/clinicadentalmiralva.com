@@ -1,11 +1,30 @@
+.whatsapp {
+  --base: #128c7e;
+  --hover: #25d366;
+}
+
 // Header 
 @mixin show-from($delay) {
-  animation: show-from .5s (.5 + .25s * $delay) both;
+  animation: show-from .5s (.125 + .0625s * $delay) both;
 }
 #body-home #header {
-  .image            { @include show-from(0); --show-from: scale(3); }
-  .box__title       { @include show-from(1); }
-  .subtitle         { @include show-from(2); }
-  .content p        { @include show-from(3); }
-  .content .buttons { @include show-from(4); }
+  #logo-title         { @include show-from(0) }
+  #logo-subtitle      { @include show-from(1); }
+  #logo-dot-1         { @include show-from(2); }
+  #logo-dot-2         { @include show-from(3); }
+  #logo-dot-3         { @include show-from(4); }
+  #logo-dot-4         { @include show-from(5); }
+  #logo-dot-5         { @include show-from(6); }
+  .content blockquote { @include show-from(7); }
+  .content .buttons   { @include show-from(8); }
+}
+
+#equipo .image__inner {
+  --mask-image: linear-gradient(#000 85%, transparent);
+  -webkit-mask-image: var(--mask-image);
+  mask-image: var(--mask-image);
+}
+
+#contacto .contact__schedule:has(+ [data-h="dGVsOiszNDk2ODg2MDIwNQ=="]) {
+  visibility: hidden;
 }

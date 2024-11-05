@@ -86,29 +86,6 @@
     - Maybe you need to eliminate the previous records with similar names
   - `Verify DNS configuration`
   - If it does not work after a while, try `Set as main domain` in the `www` version and also in te `nowww` version
-- If Cloudflare Pages
-  - [Custom domains](https://dash.cloudflare.com/?to=/:account/pages/view/clinicadentalmiralva/domains)
-  - `Set up a custom domains`
-  - `clinicadentalmiralva.com`
-  - `Continue`
-  - `Activate domain` (if `Begin DNS transfer` end)
-  - Repeat with `www.clinicadentalmiralva.com`
-  - ...........................................................
-
-
-#### Forms
-
-- If Netlify Form
-  - Don't need configure nothing! Build like you want in local or with CMS
-  - [`Netlify ⏩ Site ⏩ Forms ⏩ Form Notifications`](https://app.netlify.com/sites/clinicadentalmiralva/settings/forms#form-notifications) ⏩ `Add notification ⏩ Email notification ⏩ Email to Notify`
-    - `Email to notify` = Emails of collaborators that want receive submissions
-    - `Custom email subject line` = `Formulario de contacto de clinicadentalmiralva.com`
-    - `Save`
-  - Submissions: [`Netlify site ⏩ Forms`](https://app.netlify.com/sites/clinicadentalmiralva/forms)
-- If Cloudflare Workers
-  - ...........................................................
-- [formsubmit.co](https://formsubmit.co/)
-- If Google Form: [Tutorial](https://seacomoseo.com/instrucciones/#google-forms)
 
 
 #### [Google Analytics](https://analytics.google.com/)
@@ -136,31 +113,6 @@
     To: `google-site-verification=[google_site_verification]`
 - Link with Analytics
 - Add sitemap.xml
-
-
-#### [Google My Business](https://business.google.com/)
-
-- `Add company ⏩ ...` ⏩ whait 13 days to receive postal and insert code to verify
-
-
-#### [Disqus](https://disqus.com/)
-
-- `data/config.yml ⏩ disqus`
-
-
-#### Collaborators
-
-- [Google Analytics](https://analytics.google.com/) ⏩ `Admin ⏩ Libre acount ⏩ Site ⏩ Property access management ⏩ Add users` ⏩ Add emails of collaborators with role `Reader` or `Admin`.
-- [Google Search Console](https://search.google.com/search-console) ⏩ `Site ⏩ Settings ⏩ Users and permissions ⏩ Add user` Add emails of collaborators with `Full` permission
-- [Google My Business](https://business.google.com/)
-  - `Site ⏩ Users ⏩ Add users` ⏩ Add emails of collaborators with role `Owner`
-
-
-##### Services Layout
-
-1. [Servicios clinicadentalmiralva.com](https://drive.google.com/file/d/1trq28fMfEVwoZOk4ue0tJzAJDZtj64BK) ⏩ `File ⏩ Make a copy` ⏩ Select client directory.
-1. Change the info.
-1. `Share` ⏩ Add emails of collaborators with `Editor` permission.
 
 
 ##### Delivery
@@ -198,29 +150,3 @@ No es necesario que lo veas, solo lo es si quieres hacer cosas por tu cuenta o s
 
 ¡Un saludo!
 ```
-
-## GADS
-
-### GA4
-
-- Vincular
-  - `Herramientas`
-  - `Gestor de datos`
-  - `Google Analytics (GA4) & Firebase ⏩ Detalles`
-  - Buscar proyecto y ⏩ `Vincular`
-- Importar conversiones
-  - `Objetivos`
-  - `Resumen`
-  - `Crear acción de conversión`
-  - `Importar`
-  - `Propiedades de Google Analytics 4`
-  - `Web`
-  - `Continuar`
-  - Seleccionar `contact_click` y `contact_form_submit`
-  - `Importar y continuar`
-- Cambiar a `Maximizar conversiones`
-  - `Campañas`
-  - `⚙️`
-  - `Puja`
-  - `Cambiar estrategia de puja`
-  - `¿En qué quieres centrarte? ⏩ Conversiones`

@@ -1,30 +1,76 @@
 name: Contacto
+id: contacto
 title: Contacto
-subtitle: ¿En qué podemos ayudarte?
-icon: paper-plane
+subtitle: Sin compromiso
+# icon: paper-plane
+menu_label: Pide tu cita
 menu_button: link
+# size: md
+
 box:
-  columns: 2
+  gap: 1
+  gap_ny: 5
 boxes:
-- social:
-  - link: https://www.facebook.com/QuantumFracture
-  - link: https://www.instagram.com/quantumfracture/
-  contact:
-  - type: schedule
-    days: Lunes a Viernes
-    hours: 9:00 - 12:30 y 14:30 - 20:00
-    full: true
-  - type: phone
-    label: 111 222 333
-  - type: whatsapp
-    label: 111 222 333
-    button: link
-  - type: mail
-    label: info@sansoul.es
-    full: true
-  - type: address
-    label: Ronda de Levante, 1, 30008 Murcia
-    anchor: Sea Como SEO, Ronda de Levante, 1, 30008 Murcia
+
+- box:
+    columns: 2
+    gap_y: 0
+    gap: 2
+    gap_ny: 5
+  boxes:
+  - id: murcia
+    contact:
+    - type: h3
+      label: MURCIA
+    - type: schedule
+      days: Lunes a Jueves
+      hours: 9:00 - 13:30 y 16:30 - 20:00
+      full: true
+    - type: schedule
+      days: Viernes
+      hours: 9:00 - 13:30
+      full: true
+    - type: phone
+      label: 968 24 79 46
+    - type: phone
+      label: 652 153 122
+      icon: mobile-screen
+    - type: whatsapp
+      label: 652 153 122
+      full: true
+    - type: address
+      label: Av. General Primo de Rivera, 12, 30008 Murcia
+      anchor: Clínica Dental Miralva, Av. General Primo de Rivera, 12, 30008 Murcia
+      button: similar
+    map: '{"type":"Point","coordinates":[-1.134481,37.991630]}'
+
+  - id: santomera
+    contact:
+    - type: h3
+      label: SANTOMERA
+    - type: schedule
+      days: Lunes a Viernes
+      hours: 10:00 - 14:00 y 16:30 - 20:00
+      full: true
+    - type: schedule
+      days: Sábados
+      hours: Cerrado
+      full: true
+    - type: phone
+      label: 968 86 02 05
+    - type: phone
+      label: 606 546 826
+      icon: mobile-screen
+    - type: whatsapp
+      label: 606 546 826
+      full: true
+    - type: address
+      label: Calle Acequia, 2, 1C, 30140 Santomera
+      anchor: Clínica Dental Miralva, Calle Acequia, 2, 1C, 30140 Santomera, Murcia
+      button: similar
+    map: '{"type":"Point","coordinates":[-1.048152,38.059673]}'
+
+- span: .5
   inputs:
   - type: text
     name: Nombre
@@ -37,9 +83,3 @@ boxes:
   - type: textarea
     name: Mensaje
     required: true
-# - view: map
-#   bg: mapa.png
-#   link: '{{% map-url "Sea Como SEO, Ronda de Levante, 1, 30008 Murcia" %}}'
-#   ofuscate: true
-#   rate: 1x1
-#   button: hide
