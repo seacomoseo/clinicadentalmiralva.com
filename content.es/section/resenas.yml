@@ -23,5 +23,5 @@ boxes:
     - icon:star Más reseñas en Google:
     {.subtitle}
 
-    [btn icon:location-dot Murcia](https://g.page/r/CQI3T3wmeAB6EBM/review "noindex")
-    [btn icon:location-dot Santomera](https://g.page/r/CQI3T3wmeAB6EBM/review "noindex")
+    <!-- [btn icon:location-dot Murcia](https://g.page/r/CQI3T3wmeAB6EBM/review "noindex") -->
+    [btn icon:location-dot Santomera](https://maps.app.goo.gl/nPY7N4KVQWxRyd3c7 "noindex")

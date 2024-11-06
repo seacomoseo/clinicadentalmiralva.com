@@ -19,12 +19,21 @@
   .content .buttons   { @include show-from(8); }
 }
 
-#equipo .image__inner {
-  --mask-image: linear-gradient(#000 85%, transparent);
-  -webkit-mask-image: var(--mask-image);
-  mask-image: var(--mask-image);
+#equipo {
+  .image__inner {
+    --mask-image: linear-gradient(#000 85%, transparent);
+    -webkit-mask-image: var(--mask-image);
+    mask-image: var(--mask-image);
+  }
+  .box__content {
+    margin-block: auto 0;
+  }
 }
 
 #contacto .contact__schedule:has(+ [data-h="dGVsOiszNDk2ODg2MDIwNQ=="]) {
-  visibility: hidden;
+  display: none;
+  @media (min-width: $screen-lg) {
+    display: flex;
+    visibility: hidden;
+  }
 }

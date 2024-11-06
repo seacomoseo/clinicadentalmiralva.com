@@ -40,7 +40,8 @@ boxes:
       full: true
     - type: address
       label: Av. General Primo de Rivera, 12, 30008 Murcia
-      anchor: Clínica Dental Miralva, Av. General Primo de Rivera, 12, 30008 Murcia
+      # anchor: Clínica Dental Miralva, Av. General Primo de Rivera, 12, 30008 Murcia
+      anchor: Av. General Primo de Rivera, 12, 30008 Murcia
       button: similar
     map: '{"type":"Point","coordinates":[-1.134481,37.991630]}'
 

@@ -3,16 +3,22 @@ title: Equipo
 subtitle: Cuidamos de tu sonrisa
 # icon: rocket-launch
 box:
-  columns: 3
+  columns: 4
   gap_ny: 5
   uppercase: false
   ratio: 3x4
   contain: true
 boxes:
 
+- image: equipo/ana-fuensanta-miralles-alvarez.png
+  title: Ana Fuensanta <br> Miralles Álvarez
+  subtitle: Odontóloga especialista en cirugía e implantología
+  content: |
+    - icon:location-dot Murcia y Santomera
+
 - image: equipo/inmaculada-funes-gil.png
   title: Inmaculada <br> Funes Gil
-  subtitle: Graduada en Odontología
+  subtitle: Odontóloga
   content: |
     - icon:location-dot Murcia
 
@@ -28,13 +34,6 @@ boxes:
   content: |
     - icon:location-dot Murcia
 
-- icon: user-doctor-hair-long
-  # image: equipo/ana-fuensanta-miralles-alvarez.png
-  title: Ana Fuensanta <br> Miralles Álvarez
-  subtitle: Graduada en Odontología <br> Especialista en cirugía e implantología
-  content: |
-    - icon:location-dot Murcia y Santomera
-
 - icon: user-doctor-hair
   # image: equipo/pedro-alvarez-gomez-pena.png
   title: Pedro Álvarez-<br>Gómez Peña
@@ -45,7 +44,7 @@ boxes:
 - icon: user-doctor-hair-long
   # image: equipo/nuria-perez-guzman.png
   title: Nuria <br> Pérez Guzmán
-  subtitle: Graduada en odontología <br> Master en Odontopediatría
+  subtitle: Odontóloga y Odontopediatra
   content: |
     - icon:location-dot Murcia
 
