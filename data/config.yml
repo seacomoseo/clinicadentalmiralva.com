@@ -3,3 +3,5 @@ langs:
   title: Clínica Dental Miralva
   description: Clínica experta, moderna y con alma. Centrada en la atención personalizada, escuchando necesidades y preocupaciones para elegir el mejor tratamiento.
   google_analytics: G-8LVLLK8K7K
+cms:
+  logo: base/logo-tr.svg
