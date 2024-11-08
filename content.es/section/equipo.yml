@@ -11,7 +11,7 @@ boxes:
     columns: 4
     gap_ny: 5
     uppercase: false
-    ratio: 3x4
+    ratio: 3/4
     contain: true
     hn: 3
   boxes:
@@ -63,7 +63,7 @@ boxes:
     gap_ny: 5
     uppercase: false
     hn: 3
-    # ratio: 3x4
+    # ratio: 3/4
     # contain: true
     # image: base/logo.png
     # contain: false

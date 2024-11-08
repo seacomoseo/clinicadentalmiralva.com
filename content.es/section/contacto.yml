@@ -43,7 +43,9 @@ boxes:
       # anchor: Clínica Dental Miralva, Av. General Primo de Rivera, 12, 30008 Murcia
       anchor: Av. General Primo de Rivera, 12, 30008 Murcia
       button: similar
-    map: '{"type":"Point","coordinates":[-1.134481,37.991630]}'
+    map:
+    - type: point
+      geo: '{"type":"Point","coordinates":[-1.134481,37.991630]}'
 
   - id: santomera
     contact:
@@ -69,7 +71,9 @@ boxes:
       label: Calle Acequia, 2, 1C, 30140 Santomera
       anchor: Clínica Dental Miralva, Calle Acequia, 2, 1C, 30140 Santomera, Murcia
       button: similar
-    map: '{"type":"Point","coordinates":[-1.048152,38.059673]}'
+    map:
+    - type: point
+      geo: '{"type":"Point","coordinates":[-1.048152,38.059673]}'
 
 - span: .5
   inputs:

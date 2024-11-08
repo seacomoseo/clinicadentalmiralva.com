@@ -11,7 +11,7 @@ boxes:
 - order: 2
   # span: .5
   image: equipo.jpg
-  # ratio: 1x1
+  # ratio: 1/1
   parallax: box
 - order: 1
   align: left
