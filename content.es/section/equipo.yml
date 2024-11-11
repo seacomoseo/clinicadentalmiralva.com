@@ -1,84 +1,86 @@
 name: Equipo
 title: Equipo
 subtitle: Cuidamos de tu sonrisa
-# icon: rocket-launch
-# size: md
+size: xl
 
 box:
+  columns: 6
+  columns_min: 2
   gap_ny: 5
+  uppercase: false
+  ratio: 3/4
+  contain: true
+  hs: 5
 boxes:
-- box:
-    columns: 4
-    gap_ny: 5
-    uppercase: false
-    ratio: 3/4
-    contain: true
-    hn: 3
-  boxes:
 
-  - image: equipo/ana-fuensanta-miralles-alvarez.png
-    title: Ana Fuensanta <br> Miralles Álvarez
-    subtitle: Odontóloga especialista en cirugía e implantología
-    content: |
-      - icon:location-dot Murcia y Santomera
+# Odontólog@s
 
-  - image: equipo/inmaculada-funes-gil.png
-    title: Inmaculada <br> Funes Gil
-    subtitle: Odontóloga
-    content: |
-      - icon:location-dot Murcia
+- image: equipo/ana-fuensanta-miralles-alvarez.png
+  title: Ana Fuensanta <br> Miralles Álvarez
+  subtitle: Odontóloga esp. en <br> cirugía e implantes
+  content: |
+    - icon:location-dot Murcia y Santomera
 
-  - image: equipo/olga-ovsyannikova.png
-    title: Olga <br> Ovsyannikova
-    subtitle: Higienista dental
-    content: |
-      - icon:location-dot Murcia y Santomera
+- image: equipo/inmaculada-funes-gil.png
+  title: Inmaculada <br> Funes Gil
+  subtitle: Odontóloga
+  content: |
+    - icon:location-dot Murcia
 
-  - image: equipo/rosa-nicolas-guzman.png
-    title: Rosa <br> Nicolás Guzmán
-    subtitle: Higienista Dental
-    content: |
-      - icon:location-dot Murcia
+- image: equipo/nuria-perez-guzman.png
+  title: Nuria Pérez <br> Guzmán
+  subtitle: Odontóloga y <br> Odontopediatra
+  content: |
+    - icon:location-dot Murcia
 
-  - image: equipo/maria-jose-esparza-cayuelas.png
-    title: María José <br> Esparza Cayuelas
-    subtitle: Higienista dental
-    content: |
-      - icon:location-dot Santomera
+- image: equipo/elia-sanchez-alcaraz.png
+  title: Elia Sánchez <br> Alcaraz
+  subtitle: Odontóloga y <br> Endodoncista
+  content: |
+    - icon:location-dot Santomera
 
-  - image: equipo/maria-del-mar-capilla-san-martin.png
-    title: María del Mar <br> Capilla San Martín
-    subtitle: Recepción y cita previa
-    content: |
-      - icon:location-dot Murcia
+- image: equipo/gema-rodriguez-lozano.png
+  title: Gema Rodríguez <br> Lozano
+  subtitle: Ortodoncista
+  content: |
+    - icon:location-dot Santomera
 
-  - image: equipo/inma-aroca-manzanares.png
-    title: Inma <br> Aroca Manzanares
-    subtitle: Recepción y cita previa
-    content: |
-      - icon:location-dot Santomera
+- image: equipo/pedro-alvarez-gomez-pena.png
+  title: Pedro Álvarez-<br>Gómez Peña
+  subtitle: Ortodoncista
+  content: |
+    - icon:location-dot Murcia
 
-- box:
-    columns: 3
-    gap_ny: 5
-    uppercase: false
-    hn: 3
-    # ratio: 3/4
-    # contain: true
-    # image: base/logo.png
-    # contain: false
-  boxes:
+# Higienistas Dentales
 
-  - icon: user-doctor-hair-long
-    # image: equipo/nuria-perez-guzman.png
-    title: Nuria <br> Pérez Guzmán
-    subtitle: Odontóloga y Odontopediatra
-    content: |
-      - icon:location-dot Murcia
+- image: equipo/olga-ovsyannikova.png
+  title: Olga <br> Ovsyannikova
+  subtitle: Higienista Dental
+  content: |
+    - icon:location-dot Murcia y Santomera
 
-  - icon: user-doctor-hair
-    # image: equipo/pedro-alvarez-gomez-pena.png
-    title: Pedro Álvarez-<br>Gómez Peña
-    subtitle: Odontólogo
-    content: |
-      - icon:location-dot Murcia
+- image: equipo/rosa-nicolas-guzman.png
+  title: Rosa Nicolás <br> Guzmán
+  subtitle: Higienista Dental
+  content: |
+    - icon:location-dot Murcia
+
+- image: equipo/maria-jose-esparza-cayuelas.png
+  title: María José <br> Esparza Cayuelas
+  subtitle: Higienista Dental
+  content: |
+    - icon:location-dot Santomera
+
+# Recepcionistas
+
+- image: equipo/maria-del-mar-capilla-san-martin.png
+  title: Mª Mar Capilla <br> San Martín
+  subtitle: Recepcionista
+  content: |
+    - icon:location-dot Murcia
+
+- image: equipo/inma-aroca-manzanares.png
+  title: Inma Aroca <br> Manzanares
+  subtitle: Recepcionista
+  content: |
+    - icon:location-dot Santomera

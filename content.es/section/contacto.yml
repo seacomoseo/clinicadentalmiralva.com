@@ -2,10 +2,8 @@ name: Contacto
 id: contacto
 title: Contacto
 subtitle: Sin compromiso
-# icon: paper-plane
 menu_label: Pide tu cita
 menu_button: link
-# size: md
 
 box:
   gap: 1

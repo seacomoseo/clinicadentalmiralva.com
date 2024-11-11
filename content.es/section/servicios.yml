@@ -1,13 +1,11 @@
 name: Servicios
 title: Servicios
 subtitle: Algunos de nuestros tratamientos
-# icon: rocket-launch
 size: sm
 box:
   columns: 3
   columns_min: 2
   uppercase: false
-  # underline: false
   hs: 5
 boxes:
 - title: Odontología General
