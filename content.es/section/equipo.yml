@@ -16,38 +16,38 @@ boxes:
 # Odontólog@s
 
 - image: equipo/ana-fuensanta-miralles-alvarez.png
-  title: Ana Fuensanta <br> Miralles Álvarez
-  subtitle: Odontóloga esp. en <br> cirugía e implantes
+  title: Dra. Ana <br> Miralles
+  subtitle: Odontología <br> Cirugía e Implantes
   content: |
     - icon:location-dot Murcia y Santomera
 
 - image: equipo/inmaculada-funes-gil.png
-  title: Inmaculada <br> Funes Gil
-  subtitle: Odontóloga
+  title: Dra. Inma <br> Funes
+  subtitle: Odontólogía General y <br> Estética
   content: |
     - icon:location-dot Murcia
 
 - image: equipo/nuria-perez-guzman.png
-  title: Nuria Pérez <br> Guzmán
-  subtitle: Odontóloga y <br> Odontopediatra
+  title: Dra. Nuria <br> Pérez
+  subtitle: Odontólogía General y <br> Odontopediatría
   content: |
     - icon:location-dot Murcia
 
 - image: equipo/elia-sanchez-alcaraz.png
-  title: Elia Sánchez <br> Alcaraz
-  subtitle: Odontóloga y <br> Endodoncista
+  title: Dra. Elia <br> Sánchez
+  subtitle: Odontología y <br> Endodoncia
   content: |
     - icon:location-dot Santomera
 
 - image: equipo/gema-rodriguez-lozano.png
-  title: Gema Rodríguez <br> Lozano
-  subtitle: Ortodoncista
+  title: Dra. Gema <br> Rodríguez
+  subtitle: Ortodoncia y <br> Ortopedia
   content: |
     - icon:location-dot Santomera
 
 - image: equipo/pedro-alvarez-gomez-pena.png
-  title: Pedro Álvarez-<br>Gómez Peña
-  subtitle: Ortodoncista
+  title: Dr. Pedro <br> Álvarez-Gomez
+  subtitle: Ortodoncia y <br> Ortopedia
   content: |
     - icon:location-dot Murcia
 
@@ -60,13 +60,13 @@ boxes:
     - icon:location-dot Murcia y Santomera
 
 - image: equipo/rosa-nicolas-guzman.png
-  title: Rosa Nicolás <br> Guzmán
+  title: Rosa <br> Nicolás
   subtitle: Higienista Dental
   content: |
     - icon:location-dot Murcia
 
 - image: equipo/maria-jose-esparza-cayuelas.png
-  title: María José <br> Esparza Cayuelas
+  title: María José <br> Esparza
   subtitle: Higienista Dental
   content: |
     - icon:location-dot Santomera
@@ -74,13 +74,13 @@ boxes:
 # Recepcionistas
 
 - image: equipo/maria-del-mar-capilla-san-martin.png
-  title: Mª Mar Capilla <br> San Martín
-  subtitle: Recepcionista
+  title: María del Mar <br> Capilla
+  subtitle: Recepción
   content: |
     - icon:location-dot Murcia
 
 - image: equipo/inma-aroca-manzanares.png
-  title: Inma Aroca <br> Manzanares
-  subtitle: Recepcionista
+  title: Inma <br> Aroca
+  subtitle: Recepción
   content: |
     - icon:location-dot Santomera
