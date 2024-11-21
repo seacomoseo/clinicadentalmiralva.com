@@ -5,7 +5,7 @@ size: sm
 box:
   columns: 3
   columns_min: 2
-  uppercase: false
+  underline: true
   hs: 5
 boxes:
 - title: Odontología General

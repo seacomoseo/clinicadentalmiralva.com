@@ -5,7 +5,7 @@ size: md
 box:
   columns: 3
   gap: 2
-  uppercase: false
+  underline: true
 boxes:
 - icon: heart
   title: Atención <br> Humana

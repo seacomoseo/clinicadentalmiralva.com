@@ -7,7 +7,7 @@ box:
   columns: 6
   columns_min: 2
   gap_ny: 5
-  uppercase: false
+  underline: true
   ratio: 3/4
   contain: true
   hs: 5
