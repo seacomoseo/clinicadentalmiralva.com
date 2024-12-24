@@ -17,37 +17,37 @@ boxes:
 
 - image: equipo/ana-fuensanta-miralles-alvarez.png
   title: Dra. Ana <br> Miralles
-  subtitle: Odontología <br> Cirugía e Implantes
+  subtitle: Odontóloga <br> Cirugía e Implantes
   content: |
     - icon:location-dot Murcia y Santomera
 
 - image: equipo/inmaculada-funes-gil.png
   title: Dra. Inma <br> Funes
-  subtitle: Odontólogía General y <br> Estética
+  subtitle: Odontóloga General <br> y Prótesis
   content: |
     - icon:location-dot Murcia
 
 - image: equipo/nuria-perez-guzman.png
   title: Dra. Nuria <br> Pérez
-  subtitle: Odontólogía General y <br> Odontopediatría
+  subtitle: Odontóloga General <br> y Odontopediatría
   content: |
     - icon:location-dot Murcia
 
 - image: equipo/elia-sanchez-alcaraz.png
   title: Dra. Elia <br> Sánchez
-  subtitle: Odontología y <br> Endodoncia
+  subtitle: Odontóloga General <br> y Endodoncia
   content: |
     - icon:location-dot Santomera
 
 - image: equipo/gema-rodriguez-lozano.png
   title: Dra. Gema <br> Rodríguez
-  subtitle: Ortodoncia y <br> Ortopedia
+  subtitle: Ortodoncia <br> y Ortopedia
   content: |
     - icon:location-dot Santomera
 
 - image: equipo/pedro-alvarez-gomez-pena.png
   title: Dr. Pedro <br> Álvarez-Gomez
-  subtitle: Ortodoncia y <br> Ortopedia
+  subtitle: Ortodoncia <br> y Ortopedia
   content: |
     - icon:location-dot Murcia
 

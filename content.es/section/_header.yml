@@ -4,7 +4,7 @@ color: dark
 bg: portada.webm
 full: true
 boxes:
-- image: base/logo-tr.svg
+- image: base/logo.svg
   span: .5
 - content: |
     > Cuidamos de tu sonrisa

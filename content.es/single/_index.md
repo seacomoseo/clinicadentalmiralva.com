@@ -1,7 +1,7 @@
 ---
 slug: inicio
 title: Inicio
-image: base/logo.png
+image: base/poster.png
 translationKey: home
 
 seo: 🦷 Clínica Dental Miralva - Dentistas en Murcia y Santomera
@@ -27,7 +27,7 @@ summary: Clínica experta, moderna y con alma. Centrada en la atención personal
 legal: Clínica Dental Miralva S.L.P.
 nif: B13879333
 email: null
-logo: base/logo.svg
+logo: base/poster.svg
 images:
 - equipo.jpg
 social:
@@ -77,7 +77,7 @@ departments:
   legal: Clínica Dental Miralva S.L.P.
   nif: B13879333
   email: null
-  logo: base/logo.svg
+  logo: base/poster.svg
   images:
   - equipo.jpg
   social:

@@ -21,7 +21,7 @@ boxes:
     Creemos en una atención personalizada, donde cada paciente se sienta acompañado y comprendido.
 
     Nuestro equipo se mantiene a la vanguardia de la odontología, brindando una atención moderna y de calidad en un entorno cálido y profesional, diseñado para tu tranquilidad y confianza.
-- bg: nosotros/higienistas.png
-  rate: 3/4
-  gradient: dark
-  gradient_type: linear-br
+# - bg: nosotros/higienistas.png
+#   rate: 3/4
+#   gradient: dark
+#   gradient_type: linear-br
