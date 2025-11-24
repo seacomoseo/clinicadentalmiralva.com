@@ -1,0 +1,13 @@
+name: Cabecera
+hanchor: 🦷 Clínica Dental Miralva - Dentistas en Murcia y Santomera
+color: dark
+bi: portada.webm
+full: y
+boxes:
+- image: base/logo.svg
+  fit: 0.5
+- md: |
+    > Cuidamos de tu sonrisa
+    {.dittos}
+
+    [[Pide tu cita]](#contacto)

@@ -1,0 +1,68 @@
+name: Equipo
+title: Equipo
+subtitle: Cuidamos de tu sonrisa
+size: xl
+box:
+  cols: 6
+  cols_vs: 2
+  gap_ny: 5
+  line: y
+  ratio: 3/4
+  contain: y
+  hs: 5
+boxes:
+- image: equipo/ana-fuensanta-miralles-alvarez.png
+  title: Dra. Ana <br> Miralles
+  subtitle: Odontóloga <br> Cirugía e Implantes
+  md: |
+    - ::place:: Murcia y Santomera
+- image: equipo/inmaculada-funes-gil.png
+  title: Dra. Inma <br> Funes
+  subtitle: Odontóloga General <br> y Prótesis
+  md: |
+    - ::place:: Murcia
+- image: equipo/nuria-perez-guzman.png
+  title: Dra. Nuria <br> Pérez
+  subtitle: Odontóloga General <br> y Odontopediatría
+  md: |
+    - ::place:: Murcia
+- image: equipo/elia-sanchez-alcaraz.png
+  title: Dra. Elia <br> Sánchez
+  subtitle: Odontóloga General <br> y Endodoncia
+  md: |
+    - ::place:: Santomera
+- image: equipo/gema-rodriguez-lozano.png
+  title: Dra. Gema <br> Rodríguez
+  subtitle: Ortodoncia <br> y Ortopedia
+  md: |
+    - ::place:: Santomera
+- image: equipo/pedro-alvarez-gomez-pena.png
+  title: Dr. Pedro <br> Álvarez-Gomez
+  subtitle: Ortodoncia <br> y Ortopedia
+  md: |
+    - ::place:: Murcia
+- image: equipo/olga-ovsyannikova.png
+  title: Olga <br> Ovsyannikova
+  subtitle: Higienista Dental
+  md: |
+    - ::place:: Murcia y Santomera
+- image: equipo/rosa-nicolas-guzman.png
+  title: Rosa <br> Nicolás
+  subtitle: Higienista Dental
+  md: |
+    - ::place:: Murcia
+- image: equipo/maria-jose-esparza-cayuelas.png
+  title: María José <br> Esparza
+  subtitle: Higienista Dental
+  md: |
+    - ::place:: Santomera
+- image: equipo/maria-del-mar-capilla-san-martin.png
+  title: María del Mar <br> Capilla
+  subtitle: Recepción
+  md: |
+    - ::place:: Murcia
+- image: equipo/inma-aroca-manzanares.png
+  title: Inma <br> Aroca
+  subtitle: Recepción
+  md: |
+    - ::place:: Santomera

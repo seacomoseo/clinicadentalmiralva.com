@@ -1,0 +1,22 @@
+name: Servicios
+title: Servicios
+subtitle: Algunos de nuestros tratamientos
+size: sm
+box:
+  cols: 3
+  cols_vs: 2
+  line: y
+  hs: 5
+boxes:
+- title: Odontología General
+  icon: svg:odontologia
+- title: Endodoncia
+  icon: svg:endodoncia
+- title: Estética Dental
+  icon: svg:estetica
+- title: Implantología
+  icon: svg:implantologia
+- title: Ortodoncia
+  icon: svg:ortodoncia
+- title: Odontopediatría
+  icon: svg:odontopediatria

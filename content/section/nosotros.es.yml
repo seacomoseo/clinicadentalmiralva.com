@@ -2,18 +2,18 @@ name: Nosotros
 title: Nosotros
 subtitle: Salud y estética
 box:
-  columns: 3
+  cols: 3
   gap: 4
-  gap_min: 3
+  gap_vs: 3
   align_y: center
   parallax: soft
 boxes:
-- bg: nosotros/odontologos.png
+- bi: nosotros/odontologos.png
   rate: 3/4
-  gradient: dark
-  gradient_type: linear-bl
+  fade: dark
+  fade_type: linear-bl
 - align: left
-  content: |
+  md: |
     En Clínica Dental Miralva, nos dedicamos a cuidar de tu sonrisa con un enfoque humano y especializado.
 
     Nos esforzamos por escuchar tus necesidades y preocupaciones para ofrecerte el tratamiento más adecuado, combinando nuestra experiencia con técnicas avanzadas y conocimientos actualizados.
@@ -21,7 +21,3 @@ boxes:
     Creemos en una atención personalizada, donde cada paciente se sienta acompañado y comprendido.
 
     Nuestro equipo se mantiene a la vanguardia de la odontología, brindando una atención moderna y de calidad en un entorno cálido y profesional, diseñado para tu tranquilidad y confianza.
-# - bg: nosotros/higienistas.png
-#   rate: 3/4
-#   gradient: dark
-#   gradient_type: linear-br

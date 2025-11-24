@@ -1,0 +1,9 @@
+menu:
+  image: base/logo.svg
+title: Valores Globales
+footer:
+  div: curve-side
+  dots:
+  - link: https://www.instagram.com/clinicadentalmiralva/
+  - link: https://www.facebook.com/profile.php?id=61567998477600
+  - link: mailto:clinicamiralva@gmail.com

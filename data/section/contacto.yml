@@ -1,0 +1,83 @@
+name: Contacto
+id: contacto
+title: Contacto
+subtitle: Sin compromiso
+menu_label: Pide tu cita
+menu_button: cta
+box:
+  gap: 1
+  gap_ny: 5
+boxes:
+- box:
+    cols: 2
+    space: 0
+    gap: 2
+    gap_ny: 5
+  boxes:
+  - id: murcia
+    contact:
+    - type: h3
+      label: MURCIA
+    - type: schedule
+      days: Lunes a Jueves
+      hours: 9:00 - 13:30 y 16:30 - 20:00
+      full: y
+    - type: schedule
+      days: Viernes
+      hours: 9:00 - 13:30
+      full: y
+    - type: phone
+      label: 968 24 79 46
+    - type: phone
+      label: 652 153 122
+      icon: phone_iphone
+    - type: whatsapp
+      label: 652 153 122
+      full: y
+    - type: address
+      label: Av. General Primo de Rivera, 12, 30008 Murcia
+      anchor: Av. General Primo de Rivera, 12, 30008 Murcia
+      button: similar
+    geos:
+    - type: point
+      geo: '{"type":"Point","coordinates":[-1.134481,37.991630]}'
+  - id: santomera
+    contact:
+    - type: h3
+      label: SANTOMERA
+    - type: schedule
+      days: Lunes a Viernes
+      hours: 10:00 - 14:00 y 16:30 - 20:00
+      full: y
+    - type: schedule
+      days: Sábados
+      hours: Cerrado
+      full: y
+    - type: phone
+      label: 968 86 02 05
+    - type: phone
+      label: 606 546 826
+      icon: phone_iphone
+    - type: whatsapp
+      label: 606 546 826
+      full: y
+    - type: address
+      label: Calle Acequia, 2, 1C, 30140 Santomera
+      anchor: Clínica Dental Miralva, Calle Acequia, 2, 1C, 30140 Santomera, Murcia
+      button: similar
+    geos:
+    - type: point
+      geo: '{"type":"Point","coordinates":[-1.048152,38.059673]}'
+- fit: 0.5
+  inputs:
+  - type: text
+    name: Nombre
+    required: y
+  - type: tel
+    name: Teléfono
+  - type: email
+    name: Email
+    required: y
+  - type: textarea
+    name: Mensaje
+    required: y

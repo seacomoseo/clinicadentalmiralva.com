@@ -1,24 +1,22 @@
 title: Únicas
-order: 0
+weight: 0
 base: single
-template:
+tpl:
   menu:
-    logo: false
+    logo: n
     sticky: auto
-    size: ''
-    show_sections: true
-    show_modals: true
-  callnow:
-    show: auto
+    size: lg
+  callnow: auto
   section:
-  - underline: true
-    uppercase: true
-    alpha: .7
+  - size: lg
+    line: y
+    caps: y
+    alpha: 0.7
     parallax: fix
     color: white
-    divider: curve-corner
-    flip_x: false
-    flip_y: false
+    div: curve-corner
+    div_x: n
+    div_y: n
   - color: light
-    flip_x: true
-    flip_y: true
+    div_x: y
+    div_y: y
