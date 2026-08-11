@@ -1,24 +1,24 @@
 name: Reseñas
-title: Reseñas
-subtitle: ¿Qué dicen de nosotros?
-review:
-  cols: 3
-  color: white
-  slider: y
-  time: 8
-reviews:
-- title: Delahuerta M.
-  image: https://lh3.googleusercontent.com/a/ACg8ocLMhSFqInDQ-BRsbQcZs4w9-Uj0XFO8sMRTvNMc3Ne7p68s5Q=s136
-  md: |
-    ¡La Doctora no puede ser más amable y empática con los niños!
-
-    Un verdadero encanto que hace que la primera visita de mi hijo al dentista haya sido todo un éxito.
-
-    Ya tenemos clínica dental para mis hijos 🥰
 boxes:
+- title: Reseñas
+  sub: ¿Qué dicen de nosotros?
+  review:
+    cols: 3
+    color: white
+    slider: true
+    time: 8
+  reviews:
+  - title: Delahuerta M.
+    img: https://lh3.googleusercontent.com/a/ACg8ocLMhSFqInDQ-BRsbQcZs4w9-Uj0XFO8sMRTvNMc3Ne7p68s5Q=s136
+    md: |
+      ¡La Doctora no puede ser más amable y empática con los niños!
+
+      Un verdadero encanto que hace que la primera visita de mi hijo al dentista haya sido todo un éxito.
+
+      Ya tenemos clínica dental para mis hijos 🥰
 - md: |
     - ::star:: Más reseñas en Google:
-    {.subtitle}
+    {.sub}
 
     <!-- [[::place:: Murcia]](https://g.page/r/CQI3T3wmeAB6EBM/review "[nofollow]") -->
     [[::place:: Santomera]](https://maps.app.goo.gl/nPY7N4KVQWxRyd3c7 "[nofollow]")

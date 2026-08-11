@@ -1,3 +1,5 @@
+@use 'css/_variables' as variables;
+
 .whatsapp {
   --base: #128c7e;
   --hover: #25d366;
@@ -7,36 +9,36 @@
 @mixin show-from($delay) {
   animation: show-from .5s (.125 + .0625s * $delay) both;
 }
-#body-home #header {
+#body-home #hero {
   #logo-title         { @include show-from(0) }
-  #logo-subtitle      { @include show-from(1); }
+  #logo-sub      { @include show-from(1); }
   #logo-dot-1         { @include show-from(2); }
   #logo-dot-2         { @include show-from(3); }
   #logo-dot-3         { @include show-from(4); }
   #logo-dot-4         { @include show-from(5); }
   #logo-dot-5         { @include show-from(6); }
   .md blockquote      { @include show-from(7); }
-  .md .buttons        { @include show-from(8); }
+  .md .btns        { @include show-from(8); }
 }
 
 #equipo {
-  .image__inner {
-    --mask-image: linear-gradient(#000 85%, transparent);
-    -webkit-mask-image: var(--mask-image);
-    mask-image: var(--mask-image);
+  .img__in {
+    --mask-img: linear-gradient(#000 85%, transparent);
+    -webkit-mask-image: var(--mask-img);
+    mask-image: var(--mask-img);
   }
   .box__md {
     font-size: .9em;
     margin-block: auto 0;
   }
-  .boxes .box__subtitle {
+  .boxes .box__sub {
     font-size: 1em;
   }
 }
 
-#contacto .contact__schedule:has(+ [data-h="dGVsOiszNDk2ODg2MDIwNQ=="]) {
+#contacto .link__schedule:has(+ [data-h="dGVsOiszNDk2ODg2MDIwNQ=="]) {
   display: none;
-  @media (min-width: $viewport-lg) {
+  @media (min-width: variables.$viewport-lg) {
     display: flex;
     visibility: hidden;
   }

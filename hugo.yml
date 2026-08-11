@@ -1,11 +1,12 @@
 baseURL: https://clinicadentalmiralva.com
-buildFuture: y
+buildFuture: true
 theme: [sansoul]
 params:
+  owner: seacomoseo
   domain: clinicadentalmiralva.com
   name: clinicadentalmiralva
   netlify_id: ae120ec9-e208-4d84-b9ab-99aa5856bc0a
   netlify_hook: NjcwNjgxZjkyOGYwMDU0Zjc0NzViOWIwCg==
   cloudflare_id: 
-  drive_link: https://drive.google.com/file/d/1Vpi8CU1XcjjC60j3qCQcxTwv4z97OO5l
+  drive_url: https://drive.google.com/file/d/1Vpi8CU1XcjjC60j3qCQcxTwv4z97OO5l
   drive_mails: clinicamiralva@gmail.com

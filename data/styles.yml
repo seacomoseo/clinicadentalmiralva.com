@@ -1,59 +1,58 @@
 icons:
-  fill: y
+  fill: true
   weight: 500
   grade: 0
   optical: 24
   style: outlined
-  play: svg:youtube-iframe
+  def:
+    play: svg:youtube-iframe
 fonts:
   base:
     family: Nunito
     weight: 400
     bold: 0
-    italic: n
+    italic: false
     line_height: 1.25
   cursive:
     family: Nunito
     weight: 400
     bold: 0
-    italic: n
+    italic: false
     line_height: 1.25
     size: 1
-    top: 0
   title:
     family: Josefin Sans
     weight: 600
     bold: 0
-    italic: n
+    italic: false
     line_height: 1.25
     size: 1
-    top: 0
-  blockquote_cursive: y
+  blockquote_cursive: true
 colors:
   main:
     color: '#9bd5d4'
     light: '#ffffff'
     dark: '#ffffff'
-    contrast:
-      fill: n
-      in: y
-      text: y
+    turn:
+      fill: false
+      in: true
+      text: true
   alt:
     color: '#ffffff'
     light: '#ffffff'
     dark: '#ffffff'
-    contrast:
-      fill: y
-      in: y
-      text: y
+    turn:
+      fill: true
+      in: true
+      text: true
   cta:
     color: '#ffffff'
     light: '#ffffff'
     dark: '#ffffff'
-    contrast:
-      fill: n
-      in: y
-      text: y
+    turn:
+      fill: false
+      in: true
+      text: true
   base:
     white: '#ffffff'
     light: '#f2f2f2'
@@ -62,23 +61,23 @@ colors:
     black: '#000000'
 rounded:
   radius: 1.33
-  chamfer: n
-buttons:
-  sides_round: n
-  dot_circle: n
-  deep: n
-  outline: n
+  chamfer: false
+btns:
+  pill: false
+  disc: false
+  deep: false
+  outline: false
   font:
     type: title
-    bold: n
-    caps: y
+    bold: false
+    caps: true
   swap:
     type: base
-    bold: n
-    caps: n
+    bold: false
+    caps: false
 inputs:
-  fill: n
-  labels_out: n
+  fill: false
+  labels: in
 shadow:
   left: 0.15
   top: 0.15

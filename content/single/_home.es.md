@@ -1,13 +1,14 @@
 ---
-slug: inicio
+slug: /
 title: Inicio
-image: base/poster.png
-summary: Clínica experta, moderna y con alma. Centrada en la atención personalizada, escuchando necesidades y preocupaciones para elegir el mejor tratamiento.
-seo: 🦷 Clínica Dental Miralva - Dentistas en Murcia y Santomera
-description: Clínica experta, moderna y con alma. Centrada en la atención personalizada, escuchando necesidades y preocupaciones para elegir el mejor tratamiento.
+img: /u/base/poster.png
+sum: Clínica experta, moderna y con alma. Centrada en la atención personalizada, escuchando necesidades y preocupaciones para elegir el mejor tratamiento.
+seo:
+  title: 🦷 Clínica Dental Miralva - Dentistas en Murcia y Santomera
+  desc: Clínica experta, moderna y con alma. Centrada en la atención personalizada, escuchando necesidades y preocupaciones para elegir el mejor tratamiento.
 tpl:
   sections:
-  - file: _header
+  - file: _hero
   - file: caracteristicas
   - file: servicios
   - file: nosotros
@@ -22,13 +23,13 @@ org:
   names:
   - 🦷 Clínica Dental Miralva
   - Clínica Dental Miralva
-  description: null
+  desc: null
   legal: Clínica Dental Miralva S.L.P.
   nif: B13879333
-  email: null
-  logo: base/poster.svg
-  images:
-  - equipo.jpg
+  mail: null
+  logo: /u/base/poster.svg
+  imgs:
+  - /u/equipo.jpg
   as:
   - https://www.instagram.com/clinicadentalmiralva/
   - https://www.facebook.com/profile.php?id=61567998477600
@@ -45,19 +46,19 @@ org:
     geo: '{"type":"Point","coordinates":[-1.134481,37.991630]}'
   areas:
   - Murcia
-  schedule:
+  when:
   - days:
-      mon: y
-      tue: y
-      wed: y
-      thu: y
+      mon: true
+      tue: true
+      wed: true
+      thu: true
     hours:
     - open: 9:00
       close: 13:30
     - open: 16:30
       close: 20:00
   - days:
-      fri: y
+      fri: true
     hours:
     - open: 9:00
       close: 13:30
@@ -70,13 +71,13 @@ departments:
   names:
   - 🦷 Clínica Dental Miralva
   - Clínica Dental Miralva
-  description: Clínica experta, moderna y con alma. Centrada en la atención personalizada, escuchando necesidades y preocupaciones para elegir el mejor tratamiento.
+  desc: Clínica experta, moderna y con alma. Centrada en la atención personalizada, escuchando necesidades y preocupaciones para elegir el mejor tratamiento.
   legal: Clínica Dental Miralva S.L.P.
   nif: B13879333
-  email: null
-  logo: base/poster.svg
-  images:
-  - equipo.jpg
+  mail: null
+  logo: /u/base/poster.svg
+  imgs:
+  - /u/equipo.jpg
   as:
   - https://www.instagram.com/clinicadentalmiralva/
   - https://www.facebook.com/profile.php?id=61567998477600
@@ -93,13 +94,13 @@ departments:
     geo: '{"type":"Point","coordinates":[-1.048152,38.059673]}'
   areas:
   - Santomera
-  schedule:
+  when:
   - days:
-      mon: y
-      tue: y
-      wed: y
-      thu: y
-      fri: y
+      mon: true
+      tue: true
+      wed: true
+      thu: true
+      fri: true
     hours:
     - open: 10:00
       close: 14:00
