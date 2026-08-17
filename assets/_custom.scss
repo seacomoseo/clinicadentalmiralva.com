@@ -5,7 +5,7 @@
   --hover: #25d366;
 }
 
-// Header 
+// Hero 
 @mixin show-from($delay) {
   animation: show-from .5s (.125 + .0625s * $delay) both;
 }
