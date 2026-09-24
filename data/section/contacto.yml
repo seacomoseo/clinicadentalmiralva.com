@@ -68,6 +68,8 @@ boxes:
       - type: point
         geo: '{"type":"Point","coordinates":[-1.048152,38.059673]}'
   - fit: 0.5
+    form:
+      mail: sansoul@seacomoseo.com
     inputs:
     - type: text
       name: Nombre

@@ -1,6 +1,6 @@
 title: Páginas Únicas
-weight: 0
 base: single
+weight: 0
 tpl:
   menu:
     logo: false
@@ -8,10 +8,10 @@ tpl:
     size: lg
   callnow: auto
   section:
-  - size: lg
+  - color: white
     alpha: 0.7
     scroll: fix
-    color: white
+    size: lg
     div: curve-corner
     div_x: false
     div_y: false

@@ -63,7 +63,19 @@ org:
     - open: 9:00
       close: 13:30
   prices: €€
-  services: []
+  services:
+  - title: Odontología General
+    area: Murcia
+  - title: Endodoncia
+    area: Murcia
+  - title: Estética Dental
+    area: Murcia
+  - title: Implantología
+    area: Murcia
+  - title: Ortodoncia
+    area: Murcia
+  - title: Odontopediatría
+    area: Murcia
 departments:
 - types:
   - LocalBusiness
@@ -107,6 +119,18 @@ departments:
     - open: 16:30
       close: 20:00
   prices: €€
-  services: []
+  services:
+  - title: Odontología General
+    area: Santomera
+  - title: Endodoncia
+    area: Santomera
+  - title: Estética Dental
+    area: Santomera
+  - title: Implantología
+    area: Santomera
+  - title: Ortodoncia
+    area: Santomera
+  - title: Odontopediatría
+    area: Santomera
 ---
 
